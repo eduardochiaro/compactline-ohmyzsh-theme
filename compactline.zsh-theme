@@ -1,4 +1,3 @@
-# PROMPT="[%*] %n:%c $(git_prompt_info)%(!.#.$) "
 PROMPT='%B[%{$fg[red]%}%T%{$reset_color%}]%b %{$fg[cyan]%}%n%{$reset_color%}::%{$fg_bold[green]%}%c%{$reset_color%}$(git_prompt_info) %(!.#.$) '
 RPROMPT="%{$fg_bold[yellow]%}[%~]%{$reset_color%}"
 
